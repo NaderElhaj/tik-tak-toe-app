@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./app.css" /></head>
+<body>
+    <button id="button" onClick="refreshPage()">Restart</button>
+    <h1>Are You Challenging Me ?</h1>
+        <table class="table">
+          <tr>
+            <td id="s1" class="square" onclick="tic('s1'); check ();"></td>
+            <td id="s2" class="square" onclick="tic('s2'); check ();"></td>
+            <td id="s3" class="square" onclick="tic('s3'); check ();"></td>
+          </tr>
+          <tr>
+            <td id="s4" class="square" onclick="tic('s4');check ();"></td>
+            <td id="s5" class="square" onclick="tic('s5');check ();"></td>
+            <td id="s6" class="square" onclick="tic('s6');check ();"></td>
+          </tr>
+          <tr>
+            <td id="s7" class="square" onclick="tic('s7');check ();"></td>
+            <td id="s8" class="square" onclick="tic('s8');check ();"></td>
+            <td id="s9" class="square" onclick="tic('s9');check ();"></td>
+          </tr>
+        </table>
+        <script src="app.js"></script>
+</body>
+</html>
